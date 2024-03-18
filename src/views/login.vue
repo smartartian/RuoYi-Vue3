@@ -245,4 +245,30 @@ getCookie();
   height: 40px;
   padding-left: 12px;
 }
+
+@media screen and (max-width: 1000px) {
+  .page-box {
+    position: relative;
+
+    .left {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      background-image: url("../assets/images/bg1.png");
+    }
+    .login {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 3;
+      
+      .el-form {
+        
+      }
+    }
+  }
+}
 </style>
